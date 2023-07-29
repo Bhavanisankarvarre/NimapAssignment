@@ -1,1 +1,63 @@
+/* Global styles for the app */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  padding: 16px;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #f1f1f1;
+  padding: 16px;
+}
+
+input {
+  padding: 8px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* HomePage, TopRatedPage, UpcomingMoviePage styles */
+.page {
+  padding: 16px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.movie-item {
+  width: 30%;
+  margin-bottom: 16px;
+}
+
+.movie-item img {
+  width: 100%;
+  height: auto;
+}
+
+.movie-item p {
+  margin-top: 8px;
+}
 
